@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: rgb(235, 235, 235);
+}
+header img{
+
+    float:left ;
+    width: 70px;
+    margin-left: 50px;
+
+
+}
+
+header h1{
+    line-height: 70px;
+    text-align: center;
+    color: white;
+}
+
+#cabecalho{
+
+    height: 70px;
+    background-color:rgb(152, 123, 93) ;
+
+}
+#menu{
+    background-color: wheat;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#conteudoBlog{
+    
+    width: 80%;
+    float: left;
+    text-align: center;
+    margin: auto;
+    background-color:white ;
+    border-radius: 10px;
+    
+    
+}
+
+#conteudoBlog img{
+
+    width: 50%;
+    
+    
+}
