@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.pai{
+
+    width: 300px;
+    padding: 20px;    
+    background-color: rgb(78, 111, 155);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;/*o align-itens é alinhamento vertical e precisa de algum valor de altura*/
+    height: 500px;
+
+    /*
+    justify-content: start (inicio pagina)
+
+    justify-content: end (fim pagina)
+
+    justify-content: center (centro pagina)
+
+    justify-content: space-between;(joga os elementos mais à estremidade possível)
+
+     justify-content: space-between; (é o meio termo entre space-arround e space-between)
+    
+     justify-content: space-around;(divide os elementos para a estremidade deixando um espaço interno)
+   
+     justify-content: stretch;(esticar os elementos dentro da estrutura)
+   */
+
+
+
+
+    /*flex-direction: column-reverse;
+      flex-direction: row-reverse
+    */
+
+    /*
+    pensei em linha - row
+    
+    pensei em coluna - column
+
+    pensei em reverter - reverse
+
+    flex-direction - mudar a orientação do flex
+    
+    */
+}
+
+.filho{
+
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: rgb(161, 110, 71);
+    color: aliceblue;
+    text-align: center;
+    line-height: -2px;
+}
+
+#pai2{
+
+     height: auto;
+     justify-content: start;
+     align-items: start;
+     margin-top: 20px;
+     flex-wrap: wrap;
+     gap: 20px;
+}
+
+#pai.filho{
+
+    margin: 0px;
+}
