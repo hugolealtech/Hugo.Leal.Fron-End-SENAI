@@ -80,13 +80,14 @@ footer a{
 	
 	display: flex;
 	align-items: center;
+    margin: 10px 10px auto;
 	
 
 	
 }
 #catalogo ul{
 
-	height: 500px;
+	height: 200px;
 	border-radius: 30px auto;
 	display: flex;
 	flex-wrap: wrap;
